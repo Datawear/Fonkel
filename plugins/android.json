@@ -1,0 +1,28 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "cordova-plugin-background-mode": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        },
+        "cordova-plugin-badge": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        },
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        }
+    },
+    "dependent_plugins": {
+        "cordova-plugin-app-event": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        }
+    }
+}
