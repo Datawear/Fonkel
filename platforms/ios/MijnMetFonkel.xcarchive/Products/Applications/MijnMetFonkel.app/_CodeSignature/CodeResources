@@ -86,7 +86,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/01J-lp-oVM-view-Ze5-6b-2t3.nib</key>
 		<data>
-		yfSQZiTm/iKbrG2azOFqsI3ils4=
+		UxUuqumUbvABtTNB1Bn6Lv6Cwwk=
 		</data>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
 		<data>
@@ -94,7 +94,7 @@
 		</data>
 		<key>CDVLaunchScreen.storyboardc/UIViewController-01J-lp-oVM.nib</key>
 		<data>
-		+Te6G8jKvisT9YT1ZaWo0FOKmFg=
+		PfaUMLdTgZIg9vQCio+ABATObMI=
 		</data>
 		<key>Info.plist</key>
 		<data>
@@ -158,7 +158,7 @@
 		</data>
 		<key>MainViewController.nib</key>
 		<data>
-		aMWvDqu8XGKtJYTCsiGmW0D5LXY=
+		g9BWC5p3wt7pKOIjJqudnyLlbRI=
 		</data>
 		<key>PkgInfo</key>
 		<data>
@@ -214,7 +214,7 @@
 		</data>
 		<key>www/js/index.js</key>
 		<data>
-		p+QNRHlcd+SSXiwR/UBFjS9SmOc=
+		jOeNUxoIEI+82u5GYu9e+Q6z4Yg=
 		</data>
 		<key>www/plugins/cordova-plugin-background-mode/www/background-mode.js</key>
 		<data>
@@ -455,11 +455,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yfSQZiTm/iKbrG2azOFqsI3ils4=
+			UxUuqumUbvABtTNB1Bn6Lv6Cwwk=
 			</data>
 			<key>hash2</key>
 			<data>
-			OaPoAJ1OtMp/rGMeK4EtBJrJ3N4fxYNn4P1zSstoK+A=
+			L/3wd83GZ5XR+QzO2ycog/K+VV4hmbj87w5pWCDWudk=
 			</data>
 		</dict>
 		<key>CDVLaunchScreen.storyboardc/Info.plist</key>
@@ -477,11 +477,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			+Te6G8jKvisT9YT1ZaWo0FOKmFg=
+			PfaUMLdTgZIg9vQCio+ABATObMI=
 			</data>
 			<key>hash2</key>
 			<data>
-			2JlRDvUYOr4AV4+tUuI0/GRfzLQ2jS4U/OAv/xITDaA=
+			HSLs2PTvXfLYhrCeMKmLTHe5AOPPUwjb6pumQIdLw9E=
 			</data>
 		</dict>
 		<key>LaunchImage-568h@2x.png</key>
@@ -642,11 +642,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			aMWvDqu8XGKtJYTCsiGmW0D5LXY=
+			g9BWC5p3wt7pKOIjJqudnyLlbRI=
 			</data>
 			<key>hash2</key>
 			<data>
-			xhyCcQ7Za6mNU71+xsoWV8cCReyPWVtjRSTzWVIihTw=
+			GJ+lH2nVlWVzD1IVcdJFndF/CucjxxTASAWD0pxhmcQ=
 			</data>
 		</dict>
 		<key>appbeep.wav</key>
@@ -785,11 +785,11 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			p+QNRHlcd+SSXiwR/UBFjS9SmOc=
+			jOeNUxoIEI+82u5GYu9e+Q6z4Yg=
 			</data>
 			<key>hash2</key>
 			<data>
-			7Y/le5dKZcorWhtRRiANs/Q3vKZscWHfxFjtYuDcLns=
+			3X9eirgiX6a0loVgBBweyIXMvsY/svDrT9Dws8uMcP8=
 			</data>
 		</dict>
 		<key>www/plugins/cordova-plugin-background-mode/www/background-mode.js</key>

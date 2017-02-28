@@ -24,7 +24,7 @@
     <feature name="BackgroundMode">
         <param name="ios-package" value="APPBackgroundMode" />
     </feature>
-    <name>MijnMetFonkel</name>
+    <name>Mijnfonkelapp</name>
     <description>
       The Datawear MetFonkel Application
     </description>
