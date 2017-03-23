@@ -19,6 +19,10 @@
                         {
                             "xml": "<feature name=\"BackgroundMode\"><param name=\"ios-package\" value=\"APPBackgroundMode\" /></feature>",
                             "count": 1
+                        },
+                        {
+                            "xml": "<feature name=\"PushNotification\"><param name=\"ios-package\" value=\"PushPlugin\" /></feature>",
+                            "count": 1
                         }
                     ]
                 }
@@ -28,6 +32,42 @@
                     "UIBackgroundModes": [
                         {
                             "xml": "<array><string>audio</string></array>",
+                            "count": 1
+                        },
+                        {
+                            "xml": "<array><string>remote-notification</string></array>",
+                            "count": 1
+                        }
+                    ],
+                    "GCM_SENDER_ID": [
+                        {
+                            "xml": "<string>312504740469</string>",
+                            "count": 1
+                        }
+                    ],
+                    "IS_GCM_ENABLED": [
+                        {
+                            "xml": "<true />",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Debug.plist": {
+                "parents": {
+                    "aps-environment": [
+                        {
+                            "xml": "<string>development</string>",
+                            "count": 1
+                        }
+                    ]
+                }
+            },
+            "*-Release.plist": {
+                "parents": {
+                    "aps-environment": [
+                        {
+                            "xml": "<string>production</string>",
                             "count": 1
                         }
                     ]
@@ -50,6 +90,10 @@
         },
         "cordova-plugin-background-mode": {
             "PACKAGE_NAME": "$(PRODUCT_BUNDLE_IDENTIFIER)"
+        },
+        "phonegap-plugin-push": {
+            "SENDER_ID": "312504740469",
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
         }
     },
     "dependent_plugins": {},
@@ -79,6 +123,14 @@
                 "cordova.plugins.backgroundMode",
                 "plugin.backgroundMode"
             ]
+        },
+        {
+            "id": "phonegap-plugin-push.PushNotification",
+            "file": "plugins/phonegap-plugin-push/www/push.js",
+            "pluginId": "phonegap-plugin-push",
+            "clobbers": [
+                "PushNotification"
+            ]
         }
     ],
     "plugin_metadata": {
@@ -86,6 +138,7 @@
         "cordova-plugin-app-event": "1.2.0",
         "cordova-plugin-badge": "0.7.4",
         "cordova-plugin-device": "1.1.4",
-        "cordova-plugin-background-mode": "0.7.2"
+        "cordova-plugin-background-mode": "0.7.2",
+        "phonegap-plugin-push": "1.10.0"
     }
 }

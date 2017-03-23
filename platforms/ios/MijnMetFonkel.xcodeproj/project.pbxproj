@@ -12,16 +12,22 @@
 		11F304D8A757485493D0CA12 /* UIApplication+APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC2048AE39B4361A49155D6 /* UIApplication+APPBadge.m */; };
 		1D3623260D0F684500981E51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* AppDelegate.m */; };
 		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1F8FBDE8121F1CA235A46E28 /* libPods-MijnMetFonkel.a in Frameworks */ = {isa = PBXBuildFile; fileRef = FD367B8CC887A5CD7E9A93C6 /* libPods-MijnMetFonkel.a */; };
 		301BF552109A68D80062928A /* libCordova.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 301BF535109A57CC0062928A /* libCordova.a */; };
 		302D95F114D2391D003F00A1 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 302D95EF14D2391D003F00A1 /* MainViewController.m */; };
 		302D95F214D2391D003F00A1 /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 302D95F014D2391D003F00A1 /* MainViewController.xib */; };
+		31211378474F45389F86D0A2 /* AppDelegate+notification.m in Sources */ = {isa = PBXBuildFile; fileRef = D1ADF6723C9D4D358D4659AE /* AppDelegate+notification.m */; };
+		33962BFE9EF347B996DFF477 /* AddressBook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D75F2F04F3F4F05870CBF97 /* AddressBook.framework */; };
 		3F0F2C20F4614E79A6731D56 /* appbeep.wav in Resources */ = {isa = PBXBuildFile; fileRef = 491322B1619547AA8D33F4C1 /* appbeep.wav */; };
+		451758838EDE48DC8EEB57DB /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 6F72528799BB46AFA2BAE4CE /* libz.tbd */; };
 		66CA5DC27B014387AD830E7E /* APPBackgroundMode.m in Sources */ = {isa = PBXBuildFile; fileRef = FA9720DF8071494AB6BDEAD7 /* APPBackgroundMode.m */; };
 		6AFF5BF91D6E424B00AB3073 /* CDVLaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */; };
+		6F453FD07500463C862BBC35 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = C5F9928E8C21439D956EAD44 /* libsqlite3.tbd */; };
 		90F3E223376A47AFA5FF0F50 /* CDVPlugin+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = FDAD86F4DB134C9793E0E7C8 /* CDVPlugin+APPAppEvent.m */; };
 		B0BA8E2461CB4DE09F3E89A5 /* CDVDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A7A1FAB0BFC46CD8EF03AD8 /* CDVDevice.m */; };
 		B3B818B7FF1D47B7B09FA540 /* APPMethodMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 40161BE065A5420AB6E26319 /* APPMethodMagic.m */; };
 		B4AAAF92D7C54708AEF4218D /* AppDelegate+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF884B71524DC0B40429AD /* AppDelegate+APPAppEvent.m */; };
+		E5A107863D644DE783599C32 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 27450EE0C9B644EC9130DAA3 /* PushPlugin.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,8 +54,10 @@
 		1D3623240D0F684500981E51 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		1D3623250D0F684500981E51 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		1D6058910D05DD3D006BFB54 /* MijnMetFonkel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MijnMetFonkel.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		27450EE0C9B644EC9130DAA3 /* PushPlugin.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = PushPlugin.m; path = "phonegap-plugin-push/PushPlugin.m"; sourceTree = "<group>"; };
 		280EAFD9781D40BA8181A2DC /* APPBackgroundMode.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBackgroundMode.h; path = "cordova-plugin-background-mode/APPBackgroundMode.h"; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EDF456939B442FDA3FA27FA /* AppDelegate+notification.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+notification.h"; path = "phonegap-plugin-push/AppDelegate+notification.h"; sourceTree = "<group>"; };
 		301BF52D109A57CC0062928A /* CordovaLib.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = CordovaLib.xcodeproj; path = CordovaLib/CordovaLib.xcodeproj; sourceTree = "<group>"; };
 		301BF56E109A69640062928A /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; path = www; sourceTree = SOURCE_ROOT; };
 		302D95EE14D2391D003F00A1 /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
@@ -61,15 +69,20 @@
 		32CA4F630368D1EE00C91783 /* MijnMetFonkel-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MijnMetFonkel-Prefix.pch"; sourceTree = "<group>"; };
 		3BC8EFB1A6DB4CD3B2784D08 /* CDVDevice.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = CDVDevice.h; path = "cordova-plugin-device/CDVDevice.h"; sourceTree = "<group>"; };
 		40161BE065A5420AB6E26319 /* APPMethodMagic.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPMethodMagic.m; path = "cordova-plugin-background-mode/APPMethodMagic.m"; sourceTree = "<group>"; };
+		47421A5AF40940F09B27F8B8 /* PushPlugin.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = PushPlugin.h; path = "phonegap-plugin-push/PushPlugin.h"; sourceTree = "<group>"; };
 		491322B1619547AA8D33F4C1 /* appbeep.wav */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; path = appbeep.wav; sourceTree = "<group>"; };
 		59645E432B2B431E8E9EBF19 /* AppDelegate+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "AppDelegate+APPAppEvent.h"; path = "cordova-plugin-app-event/AppDelegate+APPAppEvent.h"; sourceTree = "<group>"; };
 		5A7A1FAB0BFC46CD8EF03AD8 /* CDVDevice.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = CDVDevice.m; path = "cordova-plugin-device/CDVDevice.m"; sourceTree = "<group>"; };
 		6AFF5BF81D6E424B00AB3073 /* CDVLaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = CDVLaunchScreen.storyboard; path = MijnMetFonkel/CDVLaunchScreen.storyboard; sourceTree = SOURCE_ROOT; };
 		6BC2048AE39B4361A49155D6 /* UIApplication+APPBadge.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "UIApplication+APPBadge.m"; path = "cordova-plugin-badge/UIApplication+APPBadge.m"; sourceTree = "<group>"; };
+		6F72528799BB46AFA2BAE4CE /* libz.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8D1107310486CEB800E47090 /* MijnMetFonkel-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "MijnMetFonkel-Info.plist"; path = "MijnMetFonkel/MijnMetFonkel-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = SOURCE_ROOT; };
+		8D75F2F04F3F4F05870CBF97 /* AddressBook.framework */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = wrapper.framework; name = AddressBook.framework; path = System/Library/Frameworks/AddressBook.framework; sourceTree = SDKROOT; };
 		AB21E347178346B99F56D77B /* APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPBadge.h; path = "cordova-plugin-badge/APPBadge.h"; sourceTree = "<group>"; };
 		AF4D51F914B84C3AB4D91A07 /* CDVPlugin+APPAppEvent.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "CDVPlugin+APPAppEvent.h"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.h"; sourceTree = "<group>"; };
 		AFEB133DFD0F405993186530 /* UIApplication+APPBadge.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = "UIApplication+APPBadge.h"; path = "cordova-plugin-badge/UIApplication+APPBadge.h"; sourceTree = "<group>"; };
+		C5F9928E8C21439D956EAD44 /* libsqlite3.tbd */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		D1ADF6723C9D4D358D4659AE /* AppDelegate+notification.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "AppDelegate+notification.m"; path = "phonegap-plugin-push/AppDelegate+notification.m"; sourceTree = "<group>"; };
 		D1D2B1F970A14B0AB72CFE70 /* APPAppEventDelegate.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPAppEventDelegate.h; path = "cordova-plugin-app-event/APPAppEventDelegate.h"; sourceTree = "<group>"; };
 		E426029BF6A74AB8BD238DE3 /* APPMethodMagic.h */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.h; name = APPMethodMagic.h; path = "cordova-plugin-background-mode/APPMethodMagic.h"; sourceTree = "<group>"; };
 		EB87FDF31871DA8E0020F90C /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = ../../www; sourceTree = "<group>"; };
@@ -77,6 +90,7 @@
 		ED33DF2A687741AEAF9F8254 /* Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
 		F840E1F0165FE0F500CFE078 /* config.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = config.xml; path = MijnMetFonkel/config.xml; sourceTree = "<group>"; };
 		FA9720DF8071494AB6BDEAD7 /* APPBackgroundMode.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBackgroundMode.m; path = "cordova-plugin-background-mode/APPBackgroundMode.m"; sourceTree = "<group>"; };
+		FD367B8CC887A5CD7E9A93C6 /* libPods-MijnMetFonkel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MijnMetFonkel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAD86F4DB134C9793E0E7C8 /* CDVPlugin+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVPlugin+APPAppEvent.m"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +100,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				301BF552109A68D80062928A /* libCordova.a in Frameworks */,
+				33962BFE9EF347B996DFF477 /* AddressBook.framework in Frameworks */,
+				6F453FD07500463C862BBC35 /* libsqlite3.tbd in Frameworks */,
+				451758838EDE48DC8EEB57DB /* libz.tbd in Frameworks */,
+				1F8FBDE8121F1CA235A46E28 /* libPods-MijnMetFonkel.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,6 +122,13 @@
 			name = Classes;
 			path = MijnMetFonkel/Classes;
 			sourceTree = SOURCE_ROOT;
+		};
+		1467594F85B08C888DC0549D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Pods;
+			sourceTree = "<group>";
 		};
 		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
@@ -126,6 +151,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				1467594F85B08C888DC0549D /* Pods */,
 			);
 			name = CustomTemplate;
 			sourceTree = "<group>";
@@ -157,6 +183,10 @@
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8D75F2F04F3F4F05870CBF97 /* AddressBook.framework */,
+				C5F9928E8C21439D956EAD44 /* libsqlite3.tbd */,
+				6F72528799BB46AFA2BAE4CE /* libz.tbd */,
+				FD367B8CC887A5CD7E9A93C6 /* libPods-MijnMetFonkel.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -197,6 +227,10 @@
 				40161BE065A5420AB6E26319 /* APPMethodMagic.m */,
 				280EAFD9781D40BA8181A2DC /* APPBackgroundMode.h */,
 				E426029BF6A74AB8BD238DE3 /* APPMethodMagic.h */,
+				D1ADF6723C9D4D358D4659AE /* AppDelegate+notification.m */,
+				27450EE0C9B644EC9130DAA3 /* PushPlugin.m */,
+				2EDF456939B442FDA3FA27FA /* AppDelegate+notification.h */,
+				47421A5AF40940F09B27F8B8 /* PushPlugin.h */,
 			);
 			name = Plugins;
 			path = MijnMetFonkel/Plugins;
@@ -218,10 +252,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "MijnMetFonkel" */;
 			buildPhases = (
+				347C6BA011031BA789FA23FF /* [CP] Check Pods Manifest.lock */,
 				304B58A110DAC018002A0835 /* Copy www directory */,
 				1D60588D0D05DD3D006BFB54 /* Resources */,
 				1D60588E0D05DD3D006BFB54 /* Sources */,
 				1D60588F0D05DD3D006BFB54 /* Frameworks */,
+				D83C5CB7C590C1CA9F06873B /* [CP] Embed Pods Frameworks */,
+				7A2EB367599EC4D174AA4CCD /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,7 +280,7 @@
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
 						DevelopmentTeam = 8AF3VTERJL;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -255,6 +292,7 @@
 				en,
 			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
+			productRefGroup = 19C28FACFE9D520D11CA2CBB /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 				{
@@ -309,6 +347,51 @@
 			shellScript = "NODEJS_PATH=/usr/local/bin; NVM_NODE_PATH=~/.nvm/versions/node/`nvm version 2>/dev/null`/bin; N_NODE_PATH=`find /usr/local/n/versions/node/* -maxdepth 0 -type d 2>/dev/null | tail -1`/bin; XCODE_NODE_PATH=`xcode-select --print-path`/usr/share/xcs/Node/bin; PATH=$NODEJS_PATH:$NVM_NODE_PATH:$N_NODE_PATH:$XCODE_NODE_PATH:$PATH && node cordova/lib/copy-www-build-step.js";
 			showEnvVarsInLog = 0;
 		};
+		347C6BA011031BA789FA23FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7A2EB367599EC4D174AA4CCD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnMetFonkel/Pods-MijnMetFonkel-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D83C5CB7C590C1CA9F06873B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MijnMetFonkel/Pods-MijnMetFonkel-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -326,6 +409,8 @@
 				B0BA8E2461CB4DE09F3E89A5 /* CDVDevice.m in Sources */,
 				66CA5DC27B014387AD830E7E /* APPBackgroundMode.m in Sources */,
 				B3B818B7FF1D47B7B09FA540 /* APPMethodMagic.m in Sources */,
+				31211378474F45389F86D0A2 /* AppDelegate+notification.m in Sources */,
+				E5A107863D644DE783599C32 /* PushPlugin.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,7 +436,7 @@
 				CLANG_ENABLE_OBJC_ARC = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -363,8 +448,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.MijnMetFonkel;
 				PRODUCT_NAME = MijnMetFonkel;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "aa578364-09b8-46f1-9891-f2c5be9cce0c";
+				PROVISIONING_PROFILE_SPECIFIER = "MijnMetFonkel Development";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -378,9 +463,9 @@
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				COPY_PHASE_STRIP = YES;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = 8AF3VTERJL;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MijnMetFonkel/MijnMetFonkel-Prefix.pch";
 				GCC_THUMB_SUPPORT = NO;
@@ -390,8 +475,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bettyblocks.MijnMetFonkel;
 				PRODUCT_NAME = MijnMetFonkel;
-				PROVISIONING_PROFILE = "";
-				PROVISIONING_PROFILE_SPECIFIER = "";
+				PROVISIONING_PROFILE = "8b640307-c10a-41ef-be95-cd5ee901bef3";
+				PROVISIONING_PROFILE_SPECIFIER = "MijnMetFonkel Distribution";
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
