@@ -39,7 +39,7 @@ var app = {
       listeningElement.setAttribute('style', 'display:none;');
       receivedElement.setAttribute('style', 'display:block;');
 
-      window.location.href = "https://mijn.metfonkel.nl";
+      window.location.href = "https://mijnkantoorapp-dev.bettywebblocks.com";
     }
 };
 
