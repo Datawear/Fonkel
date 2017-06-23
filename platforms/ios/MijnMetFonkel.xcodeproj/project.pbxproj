@@ -5,7 +5,6 @@
 	};
 	objectVersion = 46;
 	objects = {
-
 /* Begin PBXBuildFile section */
 		0207DA581B56EA530066E2B4 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0207DA571B56EA530066E2B4 /* Images.xcassets */; };
 		03F2D5A9A94B42FDA5A9A93B /* APPBadge.m in Sources */ = {isa = PBXBuildFile; fileRef = 0055A2FC81E048CE8370C4A1 /* APPBadge.m */; };
@@ -28,6 +27,7 @@
 		B3B818B7FF1D47B7B09FA540 /* APPMethodMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 40161BE065A5420AB6E26319 /* APPMethodMagic.m */; };
 		B4AAAF92D7C54708AEF4218D /* AppDelegate+APPAppEvent.m in Sources */ = {isa = PBXBuildFile; fileRef = 04CF884B71524DC0B40429AD /* AppDelegate+APPAppEvent.m */; };
 		E5A107863D644DE783599C32 /* PushPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 27450EE0C9B644EC9130DAA3 /* PushPlugin.m */; };
+		4A9D132B27D042E39309D95F /* CDVInAppBrowser.m in Sources */ = {isa = PBXBuildFile; fileRef = B77C6E6A346C4ABA98CC61FC /* CDVInAppBrowser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -92,6 +92,8 @@
 		FA9720DF8071494AB6BDEAD7 /* APPBackgroundMode.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = APPBackgroundMode.m; path = "cordova-plugin-background-mode/APPBackgroundMode.m"; sourceTree = "<group>"; };
 		FD367B8CC887A5CD7E9A93C6 /* libPods-MijnMetFonkel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MijnMetFonkel.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDAD86F4DB134C9793E0E7C8 /* CDVPlugin+APPAppEvent.m */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 4; includeInIndex = 0; lastKnownFileType = sourcecode.c.objc; name = "CDVPlugin+APPAppEvent.m"; path = "cordova-plugin-app-event/CDVPlugin+APPAppEvent.m"; sourceTree = "<group>"; };
+		B77C6E6A346C4ABA98CC61FC /* CDVInAppBrowser.m */ = {isa = PBXFileReference; name = "CDVInAppBrowser.m"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.m"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; explicitFileType = undefined; includeInIndex = 0; };
+		F11E4017BC954C9BB42379A4 /* CDVInAppBrowser.h */ = {isa = PBXFileReference; name = "CDVInAppBrowser.h"; path = "cordova-plugin-inappbrowser/CDVInAppBrowser.h"; sourceTree = "<group>"; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,8 @@
 				27450EE0C9B644EC9130DAA3 /* PushPlugin.m */,
 				2EDF456939B442FDA3FA27FA /* AppDelegate+notification.h */,
 				47421A5AF40940F09B27F8B8 /* PushPlugin.h */,
+				B77C6E6A346C4ABA98CC61FC /* CDVInAppBrowser.m */,
+				F11E4017BC954C9BB42379A4 /* CDVInAppBrowser.h */,
 			);
 			name = Plugins;
 			path = MijnMetFonkel/Plugins;
@@ -411,6 +415,7 @@
 				B3B818B7FF1D47B7B09FA540 /* APPMethodMagic.m in Sources */,
 				31211378474F45389F86D0A2 /* AppDelegate+notification.m in Sources */,
 				E5A107863D644DE783599C32 /* PushPlugin.m in Sources */,
+				4A9D132B27D042E39309D95F /* CDVInAppBrowser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

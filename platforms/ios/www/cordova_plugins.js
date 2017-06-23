@@ -33,6 +33,15 @@ module.exports = [
         "clobbers": [
             "PushNotification"
         ]
+    },
+    {
+        "id": "cordova-plugin-inappbrowser.inappbrowser",
+        "file": "plugins/cordova-plugin-inappbrowser/www/inappbrowser.js",
+        "pluginId": "cordova-plugin-inappbrowser",
+        "clobbers": [
+            "cordova.InAppBrowser.open",
+            "window.open"
+        ]
     }
 ];
 module.exports.metadata = 
@@ -43,7 +52,8 @@ module.exports.metadata =
     "cordova-plugin-badge": "0.7.4",
     "cordova-plugin-device": "1.1.4",
     "cordova-plugin-background-mode": "0.7.2",
-    "phonegap-plugin-push": "1.10.0"
+    "phonegap-plugin-push": "1.10.0",
+    "cordova-plugin-inappbrowser": "1.7.1"
 };
 // BOTTOM OF METADATA
 });

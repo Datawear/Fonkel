@@ -22,6 +22,9 @@
         "phonegap-plugin-push": {
             "SENDER_ID": "312504740469",
             "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.bettyblocks.MijnMetFonkel"
         }
     },
     "dependent_plugins": {
